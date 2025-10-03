@@ -28,15 +28,16 @@ A machine learning model to predict which customers are likely to leave a servic
 streamlit run streamlit_app.py
 
 ## churn-prediction-system/
-│
-├── data/               # Datasets
-├── notebooks/          # Jupyter notebooks for exploration
-├── models/             # Trained ML models
-├── scripts/            # Data preprocessing and training scripts
-├── output/             # Prediction results and visualizations
-├── README.md           # Project documentation
-├── requirements.txt    # Dependencies
-└── main.py             # Main script for predictions
+churn_project/
+│── churn_data.csv              # Synthetic telecom churn dataset
+│── churn_project_script.py     # End-to-end ML pipeline script
+│── streamlit_app.py            # Streamlit app for live churn prediction
+│── model.joblib                # Trained RandomForest model (saved with encoders & features)
+│── feature_importance.png      # Feature importance chart (business insight)
+│── evaluation_report.txt       # Model evaluation metrics (Accuracy, Precision, Recall, AUC)
+│── requirements.txt            # Python dependencies
+│── README.md                   # Project documentation
+
 
 
 
